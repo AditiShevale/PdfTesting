@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aditishevale999.pdftesting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="pspdfkit_license_key"
+            android:value="GNH1HxNiQDHyr5yoMrtxiuzQbDjwxNShXimEyimxXLzqDD-ORspGRlR3XQSMTaESnBprjjvLu4c-ltG4b40Ow2Mtye-Tm5djcVg1YEpOpnuYhbBLVZ8EqYb95k7eqmVZLrn_ad8gGS-wmNldbWuOXkoS-JffHd7TWlXO7ms_YLQUSmW6b2nSDkKo8VtCwWw14UFs7pEDBgl_-S40K2jy-Th27t0K1oU9Jfe2oYXwvoPT29VyOEqmjKMtrckLV5OU3bf1XeBBMSfz4vWksFr-QvQ_AdzkTFfTDx_zi-Q5ncH2tJgz7GspJSGVkrfqHsoEDTS1YZeJDKJgjOn1ehZuHAh_zt7N4wKKyBMskWyUaPJM0r1L5g4F_zg2muQc2VMNVzGvBRQ3Ra818-PvDDhk-2M8PVbQh3bBiey42zMB0HwDcjRj2UdXnsngvmEJq0N3"/>
+
+    </application>
+
+</manifest>
