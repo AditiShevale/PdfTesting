@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         final PdfActivityConfiguration config = new PdfActivityConfiguration.Builder(this).build();
 
         // Launch the activity, viewing the PDF document directly from the assets.
+
         PdfActivity.showDocument(this,
                 Uri.parse("file:///android_asset/دعائم الإسلام الجزء 1.pdf"), config);
 
